@@ -1,0 +1,15 @@
+{
+	"psi-header.variables": [
+		[
+			"project",
+			"advent-of-code-2020"
+		],
+		[
+			"project-url",
+			"https://adventofcode.com/2020/"
+		]
+	],
+	"psi-header.config": {
+		"license": "MIT"
+	}
+}
