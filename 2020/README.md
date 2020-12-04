@@ -5,7 +5,7 @@
 |  1  | [Report Repair](https://adventofcode.com/2020/day/1)       | [Day 1](https://github.com/moosploit/advent-of-code/tree/main/2020/day_01)  |
 |  2  | [Password Philosophy](https://adventofcode.com/2020/day/2) | [Day 2](https://github.com/moosploit/advent-of-code/tree/main/2020/day_02)  |
 |  3  | [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | [Day 3](https://github.com/moosploit/advent-of-code/tree/main/2020/day_03)  |
-|  4  |                                                            | [Day 4](https://github.com/moosploit/advent-of-code/tree/main/2020/day_04)  |
+|  4  | [Passport Processing](https://adventofcode.com/2020/day/4) | [Day 4](https://github.com/moosploit/advent-of-code/tree/main/2020/day_04)  |
 |  5  |                                                            | [Day 5](https://github.com/moosploit/advent-of-code/tree/main/2020/day_05)  |
 |  6  |                                                            | [Day 6](https://github.com/moosploit/advent-of-code/tree/main/2020/day_06)  |
 |  7  |                                                            | [Day 7](https://github.com/moosploit/advent-of-code/tree/main/2020/day_07)  |
@@ -27,5 +27,3 @@
 | 23  |                                                            | [Day 23](https://github.com/moosploit/advent-of-code/tree/main/2020/day_23) |
 | 24  |                                                            | [Day 24](https://github.com/moosploit/advent-of-code/tree/main/2020/day_24) |
 | 25  |                                                            | [Day 25](https://github.com/moosploit/advent-of-code/tree/main/2020/day_25) |
-
-[Day 1](https://github.com/moosploit/advent-of-code/tree/main/2020/day_01)
