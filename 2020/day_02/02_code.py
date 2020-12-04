@@ -19,18 +19,18 @@ with open("02_data.txt") as data:
 	p2_valid_count = 0
 	for line in lines:
 		m = re.match(reg_pattern, line)
-		min = int(m.group(1))
-		max = int(m.group(2))
+		min_no = int(m.group(1))
+		max_no = int(m.group(2))
 		char = m.group(3)
 		password = m.group(4)
 		char_count = password.count(char)
 
 		# === Part One === /
-		if char_count >= min and char_count <= max:
+		if char_count >= min_no and char_count <= max_no:
 			p1_valid_count += 1
 
 		# === Part Two === /
-		if (password[min-1] is char and password[max-1] is not char) or (password[min-1] is not char and password[max-1] is char):
+		if (password[min_no-1] is char and password[max_no-1] is not char) or (password[min_no-1] is not char and password[max_no-1] is char):
 			p2_valid_count += 1
 
 	print(f"Part One | Valid Lines: {p1_valid_count}")
