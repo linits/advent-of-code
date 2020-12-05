@@ -6,7 +6,7 @@
 |  2  | [Password Philosophy](https://adventofcode.com/2020/day/2) | [Day 2](https://github.com/moosploit/advent-of-code/tree/main/2020/day_02)  |
 |  3  | [Toboggan Trajectory](https://adventofcode.com/2020/day/3) | [Day 3](https://github.com/moosploit/advent-of-code/tree/main/2020/day_03)  |
 |  4  | [Passport Processing](https://adventofcode.com/2020/day/4) | [Day 4](https://github.com/moosploit/advent-of-code/tree/main/2020/day_04)  |
-|  5  |                                                            | [Day 5](https://github.com/moosploit/advent-of-code/tree/main/2020/day_05)  |
+|  5  | [Binary Boarding](https://adventofcode.com/2020/day/5)     | [Day 5](https://github.com/moosploit/advent-of-code/tree/main/2020/day_05)  |
 |  6  |                                                            | [Day 6](https://github.com/moosploit/advent-of-code/tree/main/2020/day_06)  |
 |  7  |                                                            | [Day 7](https://github.com/moosploit/advent-of-code/tree/main/2020/day_07)  |
 |  8  |                                                            | [Day 8](https://github.com/moosploit/advent-of-code/tree/main/2020/day_08)  |
