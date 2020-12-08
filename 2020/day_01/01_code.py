@@ -11,15 +11,15 @@
 # ================================================================================
 
 with open("01_data.txt") as data:
-	lines = data.readlines()
-	for x in lines:
-		for y in lines:
-			# === Part One === /
-			if (int(x) + int(y) == 2020):
-				a = int(x) * int(y)
-				print(f"Part One | {int(x)} + {int(y)} | {a}")
-			# === Part Two === /
-			for z in lines:
-				if (int(x) + int(y) + int(z) == 2020):
-					b = int(x) * int(y) * int(z)
-					print(f"Part Two | {int(x)} + {int(y)} + {int(z)} | {b}")
+    lines = data.readlines()
+    for x in lines:
+        for y in lines:
+            # === Part One === /
+            if (int(x) + int(y) == 2020):
+                a = int(x) * int(y)
+                print(f"Part One | {int(x)} + {int(y)} | {a}")
+            # === Part Two === /
+            for z in lines:
+                if (int(x) + int(y) + int(z) == 2020):
+                    b = int(x) * int(y) * int(z)
+                    print(f"Part Two | {int(x)} + {int(y)} + {int(z)} | {b}")

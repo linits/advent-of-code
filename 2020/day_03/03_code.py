@@ -14,31 +14,31 @@ import math
 
 
 def count_trees(go_right, go_down):
-	map = []
+    map = []
 
-	with open("03_data.txt") as data:
-		lines = data.readlines()
-		for line in lines:
-			map_size = math.ceil(len(lines) * go_right / (len(line)-1))
-			map.append(line.strip() * map_size)
+    with open("03_data.txt") as data:
+        lines = data.readlines()
+        for line in lines:
+            map_size = math.ceil(len(lines) * go_right / (len(line)-1))
+            map.append(line.strip() * map_size)
 
-	char_tree = "#"
-	char_square = "."
+    char_tree = "#"
+    char_square = "."
 
-	trees = 0
-	squares = 0
-	cursor = go_right
-	count_map_lines = go_down
+    trees = 0
+    squares = 0
+    cursor = go_right
+    count_map_lines = go_down
 
-	for line in map[go_down::go_down]:
-		if cursor <= len(line):
-			# print(f"{count_map_lines} | {line}")
-			char = line[cursor]
-			if char is char_tree:
-				trees += 1
-			cursor += go_right
-			count_map_lines += 1
-	return trees
+    for line in map[go_down::go_down]:
+        if cursor <= len(line):
+            # print(f"{count_map_lines} | {line}")
+            char = line[cursor]
+            if char is char_tree:
+                trees += 1
+            cursor += go_right
+            count_map_lines += 1
+    return trees
 
 
 part_two = count_trees(1, 1) * count_trees(3, 1) * \
